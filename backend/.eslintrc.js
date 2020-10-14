@@ -8,6 +8,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
+    'plugin:jsdoc/recommended',
   ],
   plugins: ['simple-import-sort'],
   rules: {
@@ -19,8 +20,13 @@ module.exports = {
       'error',
       { vars: 'all', args: 'all', argsIgnorePattern: '^_' },
     ],
+    'jsdoc/no-types': 'warn',
+    'jsdoc/require-description-complete-sentence': 'warn',
+    'jsdoc/require-param-type': 'off',
+    'jsdoc/require-returns-type': 'off',
     'no-return-await': 'error',
     'simple-import-sort/sort': 'error',
     'sort-imports': 'off',
   },
+  settings: { jsdoc: { ignoreInternal: true } },
 };

@@ -7,7 +7,7 @@
     "test": "wsrun -at test"
   },
   "workspaces": [
-    "./packages/*"
+    "packages/*"
   ],
   "devDependencies": {
     "wsrun": "^5.2.4"
