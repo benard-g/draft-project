@@ -24,6 +24,7 @@ module.exports = {
     'jsdoc/require-description-complete-sentence': 'warn',
     'jsdoc/require-param-type': 'off',
     'jsdoc/require-returns-type': 'off',
+    'no-console': 'error',
     'no-return-await': 'error',
     'simple-import-sort/sort': 'error',
     'sort-imports': 'off',
