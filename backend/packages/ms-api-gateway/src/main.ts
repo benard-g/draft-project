@@ -1,7 +1,9 @@
 import 'source-map-support/register';
 
+import { logger } from '@api/lib-common/Logger';
+
 async function main(): Promise<void> {
-  console.log('Hello from ms-api-gateway !');
+  logger.info('Hello from ms-api-gateway !');
 }
 
 if (require.main === module) {
