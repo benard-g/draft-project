@@ -1,0 +1,16 @@
+{
+  "name": "game",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "wsrun -at build",
+    "build:clean": "wsrun -at build:clean",
+    "test": "wsrun -at test"
+  },
+  "workspaces": [
+    "packages/*/*"
+  ],
+  "devDependencies": {
+    "wsrun": "^5.2.4"
+  }
+}
