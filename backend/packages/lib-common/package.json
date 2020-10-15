@@ -1,5 +1,5 @@
 {
-  "name": "@api/lib-common",
+  "name": "@packages/lib-common",
   "version": "0.1.0",
   "license": "MIT",
   "private": true,
@@ -23,10 +23,13 @@
       ]
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "pino": "^6.7.0"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.14",
     "@types/node": "^14.11.8",
+    "@types/pino": "^6.3.2",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
     "eslint": "^7.11.0",
@@ -35,6 +38,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-simple-import-sort": "^5.0.3",
     "jest": "^26.5.3",
+    "pino-pretty": "^4.3.0",
     "prettier": "^2.1.2",
     "rimraf": "^3.0.2",
     "ts-jest": "^26.4.1",
