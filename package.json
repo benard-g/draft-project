@@ -13,7 +13,10 @@
     ],
     "nohoist": [
       "@packages/*",
-      "@packages/frontend-*/typescript"
+      "@packages/frontend-*/typescript",
+      "**/eslint",
+      "**/jest",
+      "**/react-scripts"
     ]
   },
   "devDependencies": {
