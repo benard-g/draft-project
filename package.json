@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "build": "wsrun -at build",
-    "build:clean": "wsrun -at build:clean",
-    "test": "wsrun -at test"
+    "build:clean": "wsrun -a build:clean",
+    "test": "wsrun -a test"
   },
   "workspaces": {
     "packages": [
