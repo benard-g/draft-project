@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "wsrun -at build",
+    "build:clean": "wsrun -a build:clean",
+    "test": "wsrun -a test"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*/*"
+    ],
+    "nohoist": [
+      "@packages/*",
+      "@packages/frontend-*/typescript",
+      "**/eslint",
+      "**/jest",
+      "**/react-scripts"
+    ]
+  },
+  "devDependencies": {
+    "wsrun": "^5.2.4"
+  }
+}
