@@ -1,6 +1,6 @@
 import 'source-map-support/register';
 
-import { Logger } from '@packages/lib-common/Logger';
+import { Logger } from '@packages/lib-common/build/src/Logger';
 
 import { Config } from './config/Config';
 

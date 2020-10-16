@@ -6,9 +6,14 @@
     "build:clean": "wsrun -at build:clean",
     "test": "wsrun -at test"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/@packages/*"
+    ]
+  },
   "devDependencies": {
     "wsrun": "^5.2.4"
   }

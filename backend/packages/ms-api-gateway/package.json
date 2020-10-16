@@ -15,16 +15,6 @@
   "engines": {
     "node": "v14.13.1"
   },
-  "exports": {
-    "./*": "./build/src/*.js"
-  },
-  "typesVersions": {
-    "*": {
-      "*": [
-        "./src/*"
-      ]
-    }
-  },
   "dependencies": {
     "@packages/lib-common": "*",
     "source-map-support": "^0.5.19"

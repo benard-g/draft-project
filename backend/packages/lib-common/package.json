@@ -13,16 +13,6 @@
   "engines": {
     "node": "v14.13.1"
   },
-  "exports": {
-    "./*": "./build/src/*.js"
-  },
-  "typesVersions": {
-    "*": {
-      "*": [
-        "./src/*"
-      ]
-    }
-  },
   "dependencies": {
     "pino": "^6.7.0"
   },
